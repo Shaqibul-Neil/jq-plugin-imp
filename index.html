@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+<head>
+
+	<!--meta tags-->
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jquery Plugin</title>
+
+	<!--css links-->
+	<link rel="stylesheet" href="vendor/wow/css/animate.css">
+	<link rel="stylesheet" href="vendor/aos-master/dist/aos.css">
+	<link rel="stylesheet" href="vendor/preloader/src/jquery.pageLoading.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--font awesome links-->
+	<script src="https://kit.fontawesome.com/80546b0366.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+        <li class="nav-item me-2">
+          <a class="nav-link active btn btn-warning" aria-current="page" href="index.html">Page 1</a>
+        </li>
+        <li class="nav-item me-2">
+          <a class="nav-link btn btn-warning" href="pages/page 2.html">Page 2</a>
+        </li>
+        <li class="nav-item me-2">
+          <a class="nav-link btn btn-warning" href="pages/page 3.html">Page 3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-warning" href="pages/page 4.html">Page 4</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- counter 1 -->
+<div class="container mt-5">
+	<div class="row justify-content-center">
+		<div class="col-md-10 mb-3">
+			<h2 class="text-center">Counter 1</h2>
+		</div>
+		<div class="col-md-4 custCounter">
+			<h1><span class="counter">2,523</span></h1>
+			<h3 class="counterDetails">Customers</h3>
+			<i class="fa fa-users counterIcon"></i>
+		</div> 
+		<div class="col-md-4 custCounter">
+			<h1><span class="counter">63,075</span></h1>
+			<h3 class="counterDetails">Total Web Pages</h3>
+			<i class="fa fa-desktop counterIcon"></i>
+		</div>
+		<div class="col-md-4 custCounter">
+			<h1><span class="counter">12,218</span></h1>
+			<h3 class="counterDetails">Cups Of Coffee</h3>
+			<i class="fa fa-coffee counterIcon"></i>
+		</div>
+	</div>
+</div>
+
+<!-- counter 2 -->
+<div class="container mt-5">
+	<div class="row justify-content-center">
+		<div class="col-md-10 mb-3">
+			<h2 class="text-center">Counter 2</h2>
+		</div>
+		<h2 class="col-md-4 counter2 text-center">1,234,567.00</h2>
+		<h2 class="col-md-4 text-center">$</span><span class="counter2">1.99</h2>
+		<h2 class="col-md-4 counter2 text-center">12345</h2>
+	</div>
+</div>
+
+<!-- counter 3 -->
+<div class="container mt-5 mb-5">
+	<div class="row justify-content-center">
+		<div class="col-md-10 mb-3">
+			<h2 class="text-center">Counter 3</h2>
+			<h2 class="text-center" id="counter">1234</h2>
+		</div>
+	</div>
+</div>
+
+<!-- aos 1 -->
+<div class="container">
+	<div class="row justify-content-center">
+
+		<div class="col-md-10 mb-3">
+			<h2 class="text-center">AOS 1</h2>
+		</div>
+
+		<div class="col-lg-4">
+			<div class="img_aos" data-aos="zoom-out-up">
+				<img src="images/rome.png" class="w-100"alt="">
+			</div>
+		</div>
+
+		<div class="col-lg-4">
+			<div class="img_aos" data-aos="zoom-out-up">
+				<img src="images/rome.png" class="w-100"alt="">
+			</div>
+		</div>
+
+		<div class="col-lg-4">
+			<div class="img_aos" data-aos="zoom-out-up">
+				<img src="images/rome.png" class="w-100"alt="">
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row justify-content-center mt-3">
+
+		<div class="col-lg-4">
+			<div class="img_aos" data-aos="slide-up">
+				<img src="images/london.png" class="w-100"alt="">
+			</div>
+		</div>
+
+		<div class="col-lg-4">
+			<div class="img_aos" data-aos="slide-up">
+				<img src="images/london.png" class="w-100"alt="">
+			</div>
+		</div>
+
+		<div class="col-lg-4">
+			<div class="img_aos" data-aos="slide-up">
+				<img src="images/london.png" class="w-100"alt="">
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row justify-content-center mt-3 mb-3">
+
+		<div class="col-lg-4">
+			<div class="img_aos" data-aos="flip-down">
+				<img src="images/portfolio.png" class="w-100"alt="">
+			</div>
+		</div>
+
+		<div class="col-lg-4">
+			<div class="img_aos" data-aos="flip-down">
+				<img src="images/portfolio.png" class="w-100"alt="">
+			</div>
+		</div>
+
+		<div class="col-lg-4">
+			<div class="img_aos" data-aos="flip-down">
+				<img src="images/portfolio.png" class="w-100"alt="">
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<!-- aos 2 -->
+<div class="container mt-5 mb-5">
+	<div class="boxaos bg-warning mb-3" data-aos="flip-left"></div>
+	<div class="boxaos bg-danger mb-3" data-aos="fade-left"></div>
+	<div class="boxaos bg-success mb-3" data-aos="fade-right"></div>
+</div>
+
+<!-- wow js -->
+<div class="container mb-5">
+	<div class="row justify-content-center">
+		<div class="col-lg-10 text-center">
+			<h2>Wow Js</h2>
+		</div>
+		<div class="col-lg-4">
+			<div class="img_wj wow rotateIn" data-wow-duration="2s" data-wow-delay="2s">
+				<img src="images/portfolio2.png" class="w-100"alt="">
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="img_wj wow hinge" data-wow-duration="2s" data-wow-delay="2s">
+				<img src="images/portfolio2.png" class="w-100"alt="">
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="img_wj wow rollOut" data-wow-duration="2s" data-wow-delay="2s">
+				<img src="images/portfolio2.png" class="w-100"alt="">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- snowfall effect -->
+<div class="container mb-5">
+	<div class="row justify-content-center">
+		<div class="col-lg-10 text-center">
+			<h2>Snowfall effect</h2>
+		</div>
+	</div>
+	<div class="snows"></div>
+</div>
+
+
+<!--js links-->
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="vendor/counterup/jquery.counterup.min.js"></script>
+<script src="vendor/count-up-me/countMe.min.js"></script>
+<script src="vendor/aos-master/dist/aos.js"></script>
+<script src="vendor/wow/js/wow.min.js"></script>
+<script src="vendor/snowfall-effect/jquery.flurry.js"></script>
+<script src="vendor/gotop/src/jquery.goup.js"></script>
+<script src="vendor/preloader/src/jquery.pageLoading.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+#text1{
+    overflow: hidden;
+    color: #ffffff;
+    background-color: #3fafee;
+}
+.slick-prev, .slick-next{
+    background: black;
+}
+.slick-prev:hover, .slick-prev:active, .slick-next:active, .slick-next:hover{
+    background: black;
+}
+.slickImg{
+    padding: 0 10px;
+}
+.swiper {
+  width: 400px;
+}
+.swiper-slide{
+    padding: 55px;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-button-prev {
+    width: calc(var(--swiper-navigation-size) / 43 * 40);
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, 17px);
+}
+.items{
+    animation: slideOutDown linear .33s;
+}
+.owl-prev, .owl-next{
+    font-size: 40px !important;
+}
+.owl-prev{
+    position: absolute;
+    left: 49%;
+}
+.owl-next{
+    position: absolute;
+    left: 53%; 
+}
